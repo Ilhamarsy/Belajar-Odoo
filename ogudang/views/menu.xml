@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        
+        <record id= "ogudang_action_produk" model="ir.actions.act_window">
+            <field name="name">Barang</field>
+            <field name="res_model">ogudang.barang</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem name="Home" id="ogudang.menu_utama" 
+            action="ogudang_action_produk"
+        />
+        
+        <menuitem name="Barang" id="ogudang.menu_barang" parent="ogudang.menu_utama"
+            action="ogudang_action_produk"
+        />
+
+    </data>
+</odoo>

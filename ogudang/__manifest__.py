@@ -6,10 +6,11 @@
     'category': 'custom',
     'author': 'Ilham',
     'maintainer': 'Ilham',
-    'website':  'obarang.co.id',
+    'website':  'ogudang.co.id',
     'license': 'AGPL-3',
     'data': [
         'security/ir.model.access.csv',
         'views/menu.xml',
     ],
+    'application': True
 }

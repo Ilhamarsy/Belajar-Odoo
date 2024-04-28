@@ -2,7 +2,7 @@
 from odoo import api, fields, models, _
 
 class Barang(models.Model):
-    _name = 'obarang.barang' 
+    _name = 'ogudang.barang' 
     _description = 'Ini adalah master produk'
 
 
