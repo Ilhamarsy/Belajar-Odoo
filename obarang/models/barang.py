@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from odoo import api, fields, models, _
 
-class Produk(models.Model):
+class Barang(models.Model):
     _name = 'obarang.barang' 
     _description = 'Ini adalah master produk'
 
