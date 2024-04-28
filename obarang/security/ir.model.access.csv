@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_table_barang_untuk_user,access_table_barang_untuk_user,model_obarang_barang,base.group_user,1,1,1,0
+access_table_barang_untuk_admin,access_table_barang_untuk_admin,model_obarang_barang,base.group_user,1,1,1,1
